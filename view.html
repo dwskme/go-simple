@@ -1,0 +1,12 @@
+<h1>HTML TODO List</h1>
+
+<div>
+  {{.ToDoCount}} TODOS
+  <a href="/new">Add New</a>
+</div>
+
+<div>
+  {{range .ToDos}}
+  <p>{{.}}</p>
+  {{end}}
+</div>
